@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Dior-Clone Website</h1>
 
-<p id="description">This project is a front-end clone of the Dior website aiming to replicate the design layout and aesthetic appeal of the original site. It is built using modern web technologies with a focus on clean and responsive design.</p>
+<p id="description">This project is a visually accurate and fully responsive clone of the Dior website. It captures the luxury, elegance, and minimalist aesthetic that the Dior brand is known for, showcasing an engaging and interactive user experience. The clone is designed to offer a near-identical browsing experience as the original Dior website, with a focus on pixel-perfect design and responsiveness across all devices.</p>
 
 <h2>🚀 Demo</h2>
 
