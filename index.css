@@ -1,0 +1,292 @@
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+#headleft {
+  padding-left: 40px;
+  gap: 20px;
+}
+#headleft a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  font-family: "Jost", sans-serif;
+  letter-spacing: 0.25px;
+  font-weight: 300;
+}
+#headleft a:hover {
+  font-weight: 400;
+  letter-spacing: 0;
+}
+#headcenter {
+  padding-left: 62px;
+}
+#headcenter a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-family: "Cinzel", serif;
+  font-weight: 600;
+}
+nav {
+  border-style: solid;
+  border-top: 1;
+  border-bottom: 1;
+  border-left: 0;
+  border-right: 0;
+  border-width: 1px;
+  border-color: gray;
+  border: none;
+}
+#nav1 {
+  padding-left: 40px;
+  gap: 20px;
+}
+#nav1 a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  font-family: "Jost", sans-serif;
+  letter-spacing: 0.25px;
+
+  font-weight: 300;
+}
+#nav1 a:hover {
+  font-weight: 400;
+  letter-spacing: 0;
+}
+#nav2 {
+  padding-left: 40px;
+  gap: 20px;
+}
+#nav2 a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  font-family: "Jost", sans-serif;
+  letter-spacing: 0.25px;
+  display: none;
+  font-weight: 300;
+}
+#nav2 a:hover {
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+@media (min-width: 301px) and (max-width: 1199px) {
+  #headcenter {
+    padding-left: 18px;
+  }
+  nav {
+    border: none;
+  }
+}
+#icon3 {
+  padding-right: 9px;
+  font-size: 20px;
+  color: black;
+}
+#mainimg1 {
+  position: relative;
+  cursor: pointer;
+}
+#mainimg2 {
+  position: relative;
+  cursor: pointer;
+}
+#mainimg1 img {
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(0 0, 100% 0%, 100% 75%, 0 75%);
+}
+#mainimg2 img {
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(0 0, 100% 0%, 100% 75%, 0 75%);
+}
+#maintopic1 {
+  color: white;
+  font-size: 23px;
+  font-weight: 600;
+  border: none;
+  font-family: "Jost", sans-serif;
+  position: absolute;
+  top: 250px;
+  text-decoration: none;
+}
+#maintopic2 {
+  color: white;
+  font-size: 23px;
+  font-weight: 600;
+  font-family: "Jost", sans-serif;
+  position: absolute;
+  top: 250px;
+  text-decoration: none;
+}
+#mainsub1 {
+  color: white;
+  font-size: 15px;
+  font-family: "Jost", sans-serif;
+  position: absolute;
+  top: 285px;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+#mainsub2 {
+  color: white;
+  font-size: 15px;
+  font-family: "Jost", sans-serif;
+  position: absolute;
+  top: 285px;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+#mainsub1 {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+#mainsub2 {
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+#mainimg1:hover #mainsub1,
+#mainimg2:hover #mainsub2 {
+  opacity: 1;
+}
+@media (min-width: 300px) and (max-width: 1199px) {
+  #mainimg1 img {
+    clip-path: none;
+  }
+  #mainimg2 img {
+    clip-path: none;
+  }
+  #mainsub1 {
+    opacity: 1;
+  }
+  #mainsub2 {
+    opacity: 1;
+  }
+}
+
+#f1 input {
+  width: 300px;
+  border-bottom: 1px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: black;
+  border-style: solid;
+  font-size: 14px;
+  font-family: "Jost", sans-serif;
+  padding: 5px 0;
+}
+#f1 input:focus {
+  outline: none;
+}
+#f1 p {
+  font-size: 14px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
+#f1 a {
+  font-size: 14px;
+  font-family: "Jost", sans-serif;
+  color: black;
+  font-weight: 300;
+  text-decoration: none;
+}
+#f1 a:hover {
+  color: gray;
+}
+#f13 {
+  margin-top: 38px;
+}
+#f14 {
+  line-height: 3;
+}
+#f15 {
+  line-height: 3;
+}
+#f2 p {
+  font-size: 14px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
+#f2 a {
+  font-size: 14px;
+  font-family: "Jost", sans-serif;
+  color: black;
+  font-weight: 300;
+  text-decoration: none;
+}
+#f2 a:hover {
+  color: gray;
+}
+#f22 {
+  line-height: 3;
+}
+#f23 {
+  line-height: 3;
+}
+#f3 p {
+  font-size: 14px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
+#f3 a {
+  font-size: 14px;
+  font-family: "Jost", sans-serif;
+  color: black;
+  font-weight: 300;
+  text-decoration: none;
+}
+#f3 a:hover {
+  color: gray;
+}
+#f31 {
+  line-height: 3;
+}
+#f32 {
+  line-height: 3;
+}
+#f33 {
+  line-height: 3;
+}
+#f34 {
+  line-height: 3;
+}
+#f35 {
+  line-height: 3;
+}
+#f36 {
+  line-height: 3;
+}
+#f37 {
+  line-height: 3;
+}
+#f4 input {
+  width: 300px;
+  border-bottom: 1px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: black;
+  border-style: solid;
+  font-size: 14px;
+  font-family: "Jost", sans-serif;
+  padding: 5px 0;
+}
+#f4 input:focus {
+  outline: none;
+}
+#f4 p {
+  font-size: 14px;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
+#f43 {
+  margin-top: 38px;
+}
